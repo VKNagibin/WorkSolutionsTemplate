@@ -1,0 +1,188 @@
+.experts {
+    padding: 144px 0 144px 0;
+}
+
+.experts h2 {
+    margin-bottom: 24px;
+}
+
+.experts small {
+    margin-bottom: 80px;
+}
+
+.experts h2, .experts small {
+    display: flex;
+    justify-content: center;
+}
+
+.experts-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 54px;
+    margin-bottom: 96px;
+}
+
+.expert-img-wrapper, .general-img-wrapper {
+    background: #FFFFFF;
+    border: 1px solid #DBE3F0;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.06);
+    border-radius: 56px;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.general-img-wrapper {
+    width: 152px;
+    height: 152px;
+    background-image: url("../img/mMul.png");
+    background-position: center;
+    background-size: cover;
+}
+.expert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 196px;
+}
+
+.expert-name {
+    font-family: 'FuturaPTWebHeavy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.0025em;
+    color: #27303F;
+}
+
+.position {
+    margin: 4px 0;
+    font-family: 'FuturaPTWebBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.0025em;
+    color: #637899;
+}
+
+.position, .company, .expert-name {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "FuturaPTWebHeavy";
+}
+
+.main-expert {
+    position: relative;
+    display: flex;
+    gap: 40px;
+    background: #FFFFFF;
+    border: 1px solid #DBE3F0;
+    border-radius: 20px;
+    padding: 56px 254px;
+    text-align: left;
+}
+
+.main-expert .large-description {
+    position: relative;
+    z-index: 10;
+    font-size: 20px;
+    color: #27303F;
+    font-family: 'FuturaPTWebMedium';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.0025em;
+}
+
+.blue-text {
+    color: #56B8FF;
+    font-size: 18px;
+}
+
+.dotted-arrow-img {
+    position: absolute;
+    bottom: 32px;
+    right: 32px;
+}
+
+.glebKudriavtsev {
+    background-image: url("../img/man.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tatianaGrokhotovskaya {
+    background-image: url("../img/woman.png");
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+}
+
+.marinaArefieva {
+    background-image: url("../img/woman.png");
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+}
+
+.ivanJigan {
+    background-image: url("../img/iJugan.png");
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+}
+
+.evgenyShvaikovsky {
+    background-image: url("../img/man.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.vyacheslavKuznetsov {
+    background-image: url("../img/man.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.vladislavPrischepov {
+    background-image: url("../img/vPrischepov.png");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+}
+
+.andreyHasnutdinov {
+    background-image: url("../img/aHosnutdinov.png");
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+}
+
+.aleksandrSheshotov {
+    background-image: url("../img/aSheshotov.png");
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+}
+
+.aleksandrKorjanov {
+    background-image: url("../img/aKorjanov.png");
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+}
+
+.artemSalutin {
+    background-image: url("../img/aSalutin.png");
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+}
+
+

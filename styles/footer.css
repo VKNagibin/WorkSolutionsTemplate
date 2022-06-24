@@ -1,0 +1,66 @@
+/*Footer*/
+
+footer {
+    padding-top: 80px;
+    font-family: "FuturaPTWebHeavy";
+    background: #F9FAFD;
+    line-height: 24px;
+    color: #637899;
+    font-size: 18px;
+
+}
+
+.contacts-wrapper{
+    display: flex;
+    gap: 174px;
+}
+
+footer h5 {
+    margin-bottom: 20px;
+    font-family: 'FuturaPTWebMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.0025em;
+    color: #637899;
+}
+
+.footer-logo {
+    position: absolute;
+    bottom: 80.39px;
+    right: 132.5px;
+}
+
+.facebook-wrapper, .insta-wrapper {
+    display: flex;
+    gap: 12px;
+}
+
+.facebook-wrapper {
+    margin-bottom: 16px;
+}
+
+.insta-wrapper {
+    margin-bottom: 36px;
+}
+
+.designed-by {
+    display: block;
+    margin-bottom: 80px;
+    text-decoration: underline;
+}
+
+
+.our-contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    text-decoration: underline;
+}
+
+.tel {
+    margin-top: 16px;
+}

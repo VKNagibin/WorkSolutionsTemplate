@@ -1,0 +1,33 @@
+.test-reminder {
+    background: #F9FAFD;
+    min-height: 600px;
+}
+
+.test-reminder .container {
+    height: 576px;
+    overflow: visible;
+}
+
+.side-wrapper {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.side-wrapper h2 {
+    margin-top: 144px;
+}
+
+.test-reminder .test-paragraph {
+    max-width: 470px;
+}
+
+.footer-main-illustration {
+    max-width: 45%;
+    display: block;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    right: 0;
+}

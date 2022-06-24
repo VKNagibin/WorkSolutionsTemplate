@@ -1,0 +1,46 @@
+.test-benefits {
+    padding: 144px 0 144px 0;
+    background: #F9FAFD;
+}
+
+.test-benefits__title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.after-test {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+.skills-list {
+    display: flex;
+    gap: 24px;
+}
+.skills-list__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 33%;
+    background: #F9FAFD;
+    height: 304px;
+    border: 1px solid #DBE3F0;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+}
+.hand-img {
+    width: 64px;
+    margin: 48px 0 24px 0;
+}
+
+.skill-paragraph {
+    margin: 0 40px 72px 40px;
+    font-family: 'FuturaPTWebMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.0025em;
+    color: #27303F;
+}
