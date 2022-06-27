@@ -10,6 +10,10 @@ footer {
 
 }
 
+footer a {
+    color: inherit;
+}
+
 .contacts-wrapper{
     display: flex;
     gap: 174px;
@@ -50,7 +54,6 @@ footer h5 {
     margin-bottom: 80px;
     text-decoration: underline;
 }
-
 
 .our-contacts {
     display: flex;
