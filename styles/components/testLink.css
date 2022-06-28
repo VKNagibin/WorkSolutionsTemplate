@@ -1,0 +1,23 @@
+.test-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    will-change: color, background;
+    font-family: 'FuturaPTWebHeavy';
+    height: 56px;
+    width: 392px;
+    border: 2px solid #56B8FF;
+    border-radius: 12px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    transition: .3s;
+    color: #56B8FF;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.test-link:hover {
+    color: white;
+    background: #56B8FF;
+}

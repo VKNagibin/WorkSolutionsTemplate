@@ -1,41 +1,54 @@
 .our-partners {
-    margin-top: 126px;
-
+    margin-bottom: 146px;
 }
+
 .our-partners h3 {
     text-align: center;
-    font-family: 'FuturaPTWebHeavy';
-    font-style: normal;
+    font-family: 'FuturaPTWebDemi';
     font-weight: 600;
+    margin-bottom: 32px;
     font-size: 24px;
     line-height: 132%;
     letter-spacing: 0.0025em;
     color: #27303F;
 }
-.general-partners > .img-group {
+
+.general-partners-image-wrapper {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-top: 32px;
+    justify-content: center;
 }
+
 .cossa {
-    width: 160px;
+    width: 159.5px;
     height: 49px;
     margin-right: 72px;
 }
+
 .ruward {
     width: 134px;
+}
+
+.cms-magazine {
+    width: 202px;
+}
+
+.rusbase {
+    width: 180px;
 }
 
 .info-partners {
     margin-top: 56px;
 }
+
 .info-partners h3 {
     margin-bottom: 32px;
 }
-.info-partners > .img-group {
+
+.info-partners-image-wrapper {
     display: flex;
-    justify-content: space-evenly;
+    gap: 71px;
+    margin: 0 165px;
     align-items: center;
     height: 80px;
 }

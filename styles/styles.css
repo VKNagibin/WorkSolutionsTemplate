@@ -6,23 +6,24 @@
 @import url("../assets/fonts/FuturaPTMedium.css");
 
 /*Sections*/
-@import url("./header.css");
-@import url("ourPartners.css");
-@import url("painSection.css");
-@import url("testBenefits.css");
-@import url("expertSection.css");
-@import url("testReminder.css");
-@import url("./footer.css");
+@import url("sections/header.css");
+@import url("sections/ourPartners.css");
+@import url("sections/painSection.css");
+@import url("sections/testBenefits.css");
+@import url("sections/expertSection.css");
+@import url("sections/testReminder.css");
+@import url("sections/footer.css");
 
 /*Keyframes*/
 @import url("./keyframes.css");
+
+/*Components*/
+@import url("components/testLink.css");
 
 *, *:before, *:after {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    line-height: normal;
-
 }
 
 body {
@@ -53,6 +54,7 @@ h2 {
 }
 
 small {
+    display: block;
     font-family: 'FuturaPTWebMedium';
     font-style: normal;
     font-weight: 400;
@@ -68,52 +70,9 @@ header, main, footer {
 }
 
 .container {
-    overflow: hidden;
     margin: 0 auto;
     max-width: 1176px;
     position: relative;
-}
-
-.start-test-button {
-    will-change: color;
-    position: relative;
-    margin-top: 48px;
-    height: 56px;
-    width: 392px;
-    border: 2px solid #56B8FF;
-    border-radius: 12px;
-    background: white;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    transition: .3s;
-}
-
-.start-test-button:hover {
-    color: white;
-    background: #56B8FF;
-}
-
-.start-test-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    z-index: 5;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    font-family: 'FuturaPTWebHeavy';
-    font-style: normal;
-    color: #56B8FF;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 20px;
-    transition: .3s;
-}
-
-.start-test-link:hover {
-    color: white;
 }
 
 @media (max-width: 979px) {

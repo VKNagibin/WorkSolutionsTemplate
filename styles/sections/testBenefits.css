@@ -1,5 +1,6 @@
 .test-benefits {
-    padding: 144px 0 144px 0;
+    padding-top: 144px;
+    padding-bottom: 144px;
     background: #F9FAFD;
 }
 
@@ -12,6 +13,7 @@
     margin-bottom: 80px;
     display: flex;
     justify-content: center;
+    font-family: "FuturaPTWebBook";
 }
 .skills-list {
     display: flex;
@@ -23,19 +25,20 @@
     align-items: center;
     flex-basis: 33%;
     background: #F9FAFD;
-    height: 304px;
+    width: 376px;
+    height: 280px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.06);
     border: 1px solid #DBE3F0;
     border-radius: 20px;
 }
 .hand-img {
     width: 64px;
-    margin: 48px 0 24px 0;
+    margin: 48px 0 17px 0;
 }
 
 .skill-paragraph {
     margin: 0 40px 72px 40px;
-    font-family: 'FuturaPTWebMedium';
-    font-style: normal;
+    font-family: 'FuturaPTWebDemi';
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;

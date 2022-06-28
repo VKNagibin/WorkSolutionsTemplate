@@ -1,5 +1,4 @@
 .pain {
-    margin-top: 144px;
     padding-bottom: 144px;
 }
 
@@ -11,6 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    margin-bottom: 96px;
 }
 .pain-flex-item {
     position: relative;
@@ -18,9 +18,8 @@
     border: 1px solid #DBE3F0;
     border-radius: 20px;
     height: 272px;
-    padding: 32px 32px 0 32px;
-    font-family: 'FuturaPTWebBook';
-    font-style: normal;
+    padding: 30px 32px 112px 30px;
+    font-family: 'FuturaPTWebDemi';
     font-weight: bold;
     font-size: 24px;
     line-height: 32px;
@@ -28,18 +27,23 @@
     color: #637899;
 }
 .pain-flex-item:first-child {
-    flex-basis: 22%;
+    flex-basis: 276px;
 }
 .pain-flex-item:nth-child(2) {
-    flex-basis: 32%;
+    flex-basis: 376px;
 }
 .pain-flex-item:nth-child(3) {
-    flex-basis: 41.9%;
+    flex-basis: 476px;
+    padding-right: 10px;
 }
 .pain-flex-item:nth-child(4),
 .pain-flex-item:nth-child(5),
 .pain-flex-item:nth-child(6) {
     flex-basis: 31.9%;
+}
+
+.pain-flex-item:nth-child(5) {
+    padding-right: 50px;
 }
 
 .pain-img {
@@ -49,10 +53,9 @@
 }
 
 .pain-footer {
-    margin: 96px 204px 0 204px;
+    margin: 0 224px 0 224px;
     text-align: center;
-    font-family: 'FuturaPTWebHeavy';
-    font-style: normal;
+    font-family: 'FuturaPTWebDemi';
     font-weight: 500;
     font-size: 24px;
     line-height: 132%;

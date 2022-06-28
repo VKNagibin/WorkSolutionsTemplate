@@ -1,5 +1,6 @@
 header {
     position: relative;
+    margin-bottom: 126px;
 }
 
 .you-ready {
@@ -25,10 +26,13 @@ header {
 }
 
 .ready-title {
-    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 24px;
+    height: 192px;
     font-family: 'FuturaPTWebCondMedium';
     text-align: center;
-    font-style: normal;
     font-weight: 400;
     font-size: 64px;
     line-height: 64px;
@@ -41,10 +45,10 @@ header {
 }
 
 .special-project__heading {
+    margin-bottom: 24px;
     padding: 0 8px;
     color: #A3B3CC;
     font-family: 'FuturaPTWebMedium';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -52,6 +56,7 @@ header {
 }
 
 .fire-img {
+    object-fit: contain;
     font-family: 'FuturaPTWebMedium';
     display: block;
     width: 20px;
@@ -59,11 +64,11 @@ header {
 }
 
 .knowledge-level {
-    padding-top: 24px;
-    font-family: 'FuturaPTWebMedium';
-    font-style: normal;
+    font-family: 'FuturaPTWebBook';
     font-weight: 400;
     font-size: 20px;
+    margin-bottom: 48px;
+    width: 392px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.0025em;
@@ -73,8 +78,7 @@ header {
 .header-small {
     margin-top: 12px;
     text-align: center;
-    font-family: 'FuturaPTWebMedium';
-    font-style: normal;
+    font-family: 'FuturaPTWebBook';
     font-weight: 400;
     font-size: 18px;
     text-align: center;
@@ -88,6 +92,7 @@ header {
 
 .main-illustration{
     position: absolute;
+    top: 80px;
     right: 0;
     bottom: 0;
     z-index: 1;
@@ -118,14 +123,20 @@ header {
     position: relative;
     margin: 0 32px;
 }
+
+.more-info__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 .stroke-img {
+    overflow: visible;
     padding-top: 5px;
-    width: 18px;
-    height: 14px;
+    width: 19px;
 }
 .more-info-anchor {
     font-family: 'FuturaPTWebMedium';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -140,7 +151,7 @@ header {
     right: 50%;
     transform: translateX(50%);
     position: absolute;
-    top: 23px;
+    top: 21px;
     animation: .2s ease-out 1.5s more-info;
 }
 
