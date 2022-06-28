@@ -1,17 +1,17 @@
 /*Fonts*/
-@import url("../fonts/FuturaPTBook.css");
-@import url("../fonts/FuturaPTCondMedium.css");
-@import url("../fonts/FuturaPTDemi.css");
-@import url("../fonts/FuturaPTHeavy.css");
-@import url("../fonts/FuturaPTMedium.css");
+@import url("../fonts/Futura PT_Book.css");
+@import url("../fonts/Futura PT_Cond Medium.css");
+@import url("../fonts/Futura PT_Demi.css");
+@import url("../fonts/Futura PT_Heavy.css");
+@import url("../fonts/Futura PT_Medium.css");
 
 /*Sections*/
 @import url("./header.css");
-@import url("ourPartners.css");
-@import url("painSection.css");
-@import url("testBenefits.css");
-@import url("expertSection.css");
-@import url("testReminder.css");
+@import url("./our-partners.css");
+@import url("./pain-section.css");
+@import url("./test-benefits.css");
+@import url("./expert-section.css");
+@import url("./test-reminder.css");
 @import url("./footer.css");
 
 /*Keyframes*/
