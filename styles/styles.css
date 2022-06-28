@@ -76,14 +76,7 @@ header, main, footer {
 }
 
 @media (max-width: 979px) {
-    .hide-animation-block {
-        display: block;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        background: white;
+    .header {
         animation: .6s ease-out mobileAnimation forwards;
     }
     .animation-backing{
@@ -134,7 +127,7 @@ header, main, footer {
         height: 1255px;
         background-image: url("../assets/img/pageIcons/topBackground.png");
         background-position: bottom center;
-        background-size: 100% 80%;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     header .container {
@@ -150,7 +143,6 @@ header, main, footer {
         justify-content: space-between;
         padding-top: 136px;
         width: 100%;
-        height: 716px;
     }
 
     header small {
@@ -184,17 +176,11 @@ header, main, footer {
     .our-partners {
         margin-top: 0;
     }
-    .info-partners .img-group {
+    .info-partners-image-wrapper {
         margin: 0 132px;
         padding: 0 30px;
-        height: max-content;
         flex-wrap: wrap;
         justify-content: space-between;
-    }
-    .info-partners .img-group img {
-        display: block;
-        width: 35%;
-        margin: 5px;
     }
 
     .pain-flex-item:first-child {
@@ -256,7 +242,7 @@ header, main, footer {
         background-repeat: no-repeat;
     }
 
-    .header .start-test-button {
+    .header .test-link {
         max-width: 80%;
         min-height: 48px;
     }
@@ -337,16 +323,10 @@ header, main, footer {
     .our-partners {
         margin-top: 0;
     }
-    .info-partners .img-group {
+    .info-partners-image-wrapper {
         padding: 0 30px;
         height: max-content;
         flex-wrap: wrap;
-    }
-
-    .info-partners .img-group img {
-        display: block;
-        width: 40%;
-        margin: 5px;
     }
 
     .pain {
@@ -379,10 +359,6 @@ header, main, footer {
 
     .test-benefits__title {
         text-align: center;
-    }
-
-    .side-wrapper button{
-        align-self: center;
     }
 
     .test-reminder {
@@ -463,7 +439,7 @@ header, main, footer {
         right: 16px;
     }
 
-    .start-test-button {
+    .test-link {
         width: 256px;
     }
 }
