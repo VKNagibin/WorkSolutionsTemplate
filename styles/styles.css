@@ -1,9 +1,9 @@
 /*Fonts*/
-@import url("../fonts/FuturaPTBook.css");
-@import url("../fonts/FuturaPTCondMedium.css");
-@import url("../fonts/FuturaPTDemi.css");
-@import url("../fonts/FuturaPTHeavy.css");
-@import url("../fonts/FuturaPTMedium.css");
+@import url("../assets/fonts/FuturaPTBook.css");
+@import url("../assets/fonts/FuturaPTCondMedium.css");
+@import url("../assets/fonts/FuturaPTDemi.css");
+@import url("../assets/fonts/FuturaPTHeavy.css");
+@import url("../assets/fonts/FuturaPTMedium.css");
 
 /*Sections*/
 @import url("./header.css");
@@ -153,7 +153,7 @@ header, main, footer {
 @media (max-width: 979px) and (min-width: 768px) {
     .header {
         height: 1255px;
-        background-image: url("../img/topBackground.png");
+        background-image: url("../assets/img/pageIcons/topBackground.png");
         background-position: bottom center;
         background-size: 100% 80%;
         background-repeat: no-repeat;
@@ -200,7 +200,6 @@ header, main, footer {
     }
     .more-info__img {
         display: block;
-        /*heigth: 100%;*/
     }
 
     .our-partners {
@@ -272,7 +271,7 @@ header, main, footer {
 
     .header {
         height: 762px;
-        background-image: url("../img/topBackground.png");
+        background-image: url("../assets/img/pageIcons/topBackground.png");
         background-position: bottom center;
         background-size: 100% 65%;
         background-repeat: no-repeat;
@@ -301,7 +300,6 @@ header, main, footer {
     .ready-title {
         font-size: 44px;
         font-weight: 500;
-        font-size: 44px;
         line-height: 44px;
     }
 
