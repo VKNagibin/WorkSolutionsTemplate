@@ -13,33 +13,35 @@
     margin-bottom: 96px;
 }
 .pain-flex-item {
+    display: flex;
+    justify-content: center;
     position: relative;
     background: #FFFFFF;
     border: 1px solid #DBE3F0;
     border-radius: 20px;
-    height: 272px;
-    padding: 30px 32px 112px 30px;
+    padding: 32px 32px 112px 32px;
     font-family: 'FuturaPTWebDemi';
     font-weight: bold;
     font-size: 24px;
     line-height: 32px;
     letter-spacing: 0.0025em;
     color: #637899;
+    min-height: 272px;
+    min-height: 304px;
 }
 .pain-flex-item:first-child {
-    flex-basis: 276px;
+    flex-basis: 23%;
 }
 .pain-flex-item:nth-child(2) {
-    flex-basis: 376px;
+    flex-basis: 31.7%;
 }
 .pain-flex-item:nth-child(3) {
-    flex-basis: 476px;
-    padding-right: 10px;
+    flex-basis: 40%;
 }
 .pain-flex-item:nth-child(4),
 .pain-flex-item:nth-child(5),
 .pain-flex-item:nth-child(6) {
-    flex-basis: 31.9%;
+    flex-basis: 31.5%;
 }
 
 .pain-flex-item:nth-child(5) {

@@ -4,19 +4,19 @@
 
 .experts h2 {
     margin-bottom: 24px;
-}
-
-.experts h2, .experts small {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.experts small {
+.test-description {
     font-family: 'FuturaPTWebBook';
-    margin: 0px 332px 0 332px;
+    width: 512px;
     text-align: center;
-    margin-bottom: 80px;
+    margin: 0 auto 80px auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #637899;
 }
 
 .experts-list {
@@ -33,8 +33,8 @@
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.06);
     border-radius: 56px;
     overflow: hidden;
-    width: 200px;
-    height: 200px;
+    width: 196px;
+    height: 196px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,8 +107,9 @@
     background: #FFFFFF;
     border: 1px solid #DBE3F0;
     border-radius: 20px;
-    padding: 56px 254px;
+    padding: 55px 251px;
     text-align: left;
+    font-family: 'FuturaPTWebMedium';
 }
 
 .main-expert .main-expert-description {
@@ -116,10 +117,13 @@
     z-index: 10;
     font-size: 20px;
     color: #27303F;
-    font-family: 'FuturaPTWebMedium';
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.0025em;
+}
+
+.main-expert-description {
+    font-family: 'FuturaPTWebBook';
 }
 
 .blue-text {
@@ -143,18 +147,21 @@
 .tatianaGrokhotovskaya {
     background-image: url("../../assets/img/experts/woman.png");
     background-position: 50% 25%;
+    background-size: 150%;
     background-repeat: no-repeat;
 }
 
 .marinaArefieva {
     background-image: url("../../assets/img/experts/woman.png");
     background-position: 50% 25%;
+    background-size: 150%;
     background-repeat: no-repeat;
 }
 
 .ivanJigan {
     background-image: url("../../assets/img/experts/iJugan.png");
     background-position: 50% 25%;
+    background-size: 132%;
     background-repeat: no-repeat;
 }
 
@@ -175,35 +182,35 @@
 .vladislavPrischepov {
     background-image: url("../../assets/img/experts/vPrischepov.png");
     background-repeat: no-repeat;
-    background-size: 130%;
+    background-size: 132%;
     background-position: 50% 25%;
 }
 
 .andreyHasnutdinov {
     background-image: url("../../assets/img/experts/aHosnutdinov.png");
     background-position: 50% 25%;
-    background-size: 130%;
+    background-size: 132%;
     background-repeat: no-repeat;
 }
 
 .aleksandrSheshotov {
     background-image: url("../../assets/img/experts/aSheshotov.png");
     background-position: 50% 25%;
-    background-size: 130%;
+    background-size: 132%;
     background-repeat: no-repeat;
 }
 
 .aleksandrKorjanov {
     background-image: url("../../assets/img/experts/aKorjanov.png");
     background-position: 50% 25%;
-    background-size: 130%;
+    background-size: 132%;
     background-repeat: no-repeat;
 }
 
 .artemSalutin {
     background-image: url("../../assets/img/experts/aSalutin.png");
     background-position: 50% 25%;
-    background-size: 130%;
+    background-size: 132%;
     background-repeat: no-repeat;
 }
 

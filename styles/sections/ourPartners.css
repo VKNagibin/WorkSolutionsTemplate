@@ -48,7 +48,6 @@
 .info-partners-image-wrapper {
     display: flex;
     gap: 71px;
-    margin: 0 165px;
+    justify-content: center;
     align-items: center;
-    height: 80px;
 }

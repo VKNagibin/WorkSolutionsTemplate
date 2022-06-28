@@ -1,6 +1,7 @@
 .test-reminder {
     background: #F9FAFD;
     min-height: 600px;
+    padding-bottom: 80px;
 }
 
 .test-reminder .container {
@@ -19,15 +20,25 @@
     margin-top: 144px;
 }
 
+.test-reminder-title {
+    margin-bottom: 16px;
+}
+
+.test-paragraph {
+    margin-bottom: 46px;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "FuturaPTWebBook";
+    color: #637899;
+}
+
 .test-reminder .test-paragraph {
     max-width: 470px;
 }
 
 .footer-main-illustration {
-    max-width: 45%;
     display: block;
     position: absolute;
-    bottom: 50%;
-    transform: translateY(50%);
+    bottom: -58px;
     right: 0;
 }

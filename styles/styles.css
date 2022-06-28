@@ -95,10 +95,24 @@ header, main, footer {
     .container {
         margin: 0 32px;
     }
-
     .expert {
-        flex-basis: 10%;
+        flex-basis: 20%;
+        width: 211px;
     }
+
+    .expert-img-wrapper {
+       width: 140px;
+       height: 140px;
+       border-radius: 42px;
+   }
+
+   .skills-list__item {
+       height: 328px;
+   }
+
+   .test-description {
+        display: block;
+   }
 }
 
 @media (max-width: 1090px) and (min-width: 769px){

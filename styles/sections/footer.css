@@ -1,13 +1,12 @@
 /*Footer*/
 
 footer {
-    padding-top: 80px;
-    font-family: "FuturaPTWebHeavy";
+    font-family: 'FuturaPTWebMedium';
     background: #F9FAFD;
     line-height: 24px;
     color: #637899;
     font-size: 18px;
-
+    height: 330px;
 }
 
 footer a {
@@ -21,7 +20,7 @@ footer a {
 
 footer h5 {
     margin-bottom: 20px;
-    font-family: 'FuturaPTWebMedium';
+    font-family: 'FuturaPTWebDemi';
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -30,9 +29,11 @@ footer h5 {
 }
 
 .footer-logo {
+    width: 102px;
+    height: 74px;
     position: absolute;
-    bottom: 80.39px;
-    right: 132.5px;
+    bottom: 0;
+    right: 0;
 }
 
 .facebook-wrapper, .insta-wrapper {
