@@ -40,7 +40,7 @@
 .general-img-wrapper {
     width: 152px;
     height: 152px;
-    background-image: url("../assets/img/experts/mMul.png");
+    background-image: url("../img/mMul.png");
     background-position: center;
     background-size: cover;
 }
@@ -124,67 +124,67 @@
 }
 
 .glebKudriavtsev {
-    background-image: url("../assets/img/experts/man.png");
+    background-image: url("../img/man.png");
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .tatianaGrokhotovskaya {
-    background-image: url("../assets/img/experts/woman.png");
+    background-image: url("../img/woman.png");
     background-position: 50% 25%;
     background-repeat: no-repeat;
 }
 
 .marinaArefieva {
-    background-image: url("../assets/img/experts/woman.png");
+    background-image: url("../img/woman.png");
     background-position: 50% 25%;
     background-repeat: no-repeat;
 }
 
 .ivanJigan {
-    background-image: url("../assets/img/experts/iJugan.png");
+    background-image: url("../img/iJugan.png");
     background-position: 50% 25%;
     background-repeat: no-repeat;
 }
 
 .evgenyShvaikovsky {
-    background-image: url("../assets/img/experts/man.png");
+    background-image: url("../img/man.png");
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .vyacheslavKuznetsov {
-    background-image: url("../assets/img/experts/man.png");
+    background-image: url("../img/man.png");
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .vladislavPrischepov {
-    background-image: url("../assets/img/experts/vPrischepov.png");
+    background-image: url("../img/vPrischepov.png");
     background-repeat: no-repeat;
     background-position: 50% 25%;
 }
 
 .andreyHasnutdinov {
-    background-image: url("../assets/img/experts/aHosnutdinov.png");
+    background-image: url("../img/aHosnutdinov.png");
     background-position: 50% 25%;
     background-repeat: no-repeat;
 }
 
 .aleksandrSheshotov {
-    background-image: url("../assets/img/experts/aSheshotov.png");
+    background-image: url("../img/aSheshotov.png");
     background-position: 50% 25%;
     background-repeat: no-repeat;
 }
 
 .aleksandrKorjanov {
-    background-image: url("../assets/img/experts/aKorjanov.png");
+    background-image: url("../img/aKorjanov.png");
     background-position: 50% 25%;
     background-repeat: no-repeat;
 }
 
 .artemSalutin {
-    background-image: url("../assets/img/experts/aSalutin.png");
+    background-image: url("../img/aSalutin.png");
     background-position: 50% 25%;
     background-repeat: no-repeat;
 }
