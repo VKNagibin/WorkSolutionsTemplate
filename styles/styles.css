@@ -456,6 +456,7 @@ header, main, footer {
     .general-partners-image-wrapper {
         width: 288px;
         padding: 0 14px;
+        margin: 0 auto;
     }
 
     .pain {
@@ -581,7 +582,7 @@ header, main, footer {
         justify-content: flex-start;
         gap: 0px;
         flex-wrap: nowrap;
-        margin-bottom: 30px;
+        margin-bottom: 28px;
         overflow: scroll;
     }
 
@@ -604,15 +605,25 @@ header, main, footer {
         padding: 40px 16px 40px 16px ;
         flex-direction: column;
         align-items: center;
+        gap: 24px;
+    }
+
+    .general-img-wrapper {
+        border-radius: 38px;
+        width: 140px;
+        height: 140px;
     }
 
     .main-expert-paragraph {
         font-size: 18px;
+        padding-right: 10px;
         line-height: 22px;
     }
 
     .dotted-arrow-img {
-        width: 56px;
+        width: 40px;
+        bottom: 16px;
+        right: 16px;
     }
 
     .designed-by {
@@ -626,6 +637,45 @@ header, main, footer {
     }
 
     .test-link {
-        width: 256px;
+        width: 100%;
+        font-size: 16px;
+        line-height: 20px;
     }
+
+    .test-reminder .test-link {
+        height: 48px;
+        margin-bottom: 15px;
+    }
+
+    .test-reminder-title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .test-paragraph {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 32px;
+    }
+
+    .footer-main-illustration {
+        width: 288px;
+        height: 320px;
+    }
+
+    .our-socials {
+        margin-bottom: 6px;
+    }
+
+    .tel {
+        margin-bottom: 44px;
+    }
+
+    .footer-logo {
+        right: 0;
+        bottom: 43px;
+    }
+
+
+
+
 }

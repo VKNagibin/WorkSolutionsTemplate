@@ -62,8 +62,5 @@ footer h5 {
 
 .email {
     text-decoration: underline;
-}
-
-.tel {
-    margin-top: 16px;
+    margin-bottom: 16px;
 }
