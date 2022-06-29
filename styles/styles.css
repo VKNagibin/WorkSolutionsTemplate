@@ -73,6 +73,7 @@ header, main, footer {
     margin: 0 auto;
     max-width: 1176px;
     position: relative;
+    overflow: hidden;
 }
 
 @media (max-width: 979px) {
@@ -109,10 +110,6 @@ header, main, footer {
        height: 328px;
    }
 
-   .test-description {
-        display: block;
-   }
-
    .test-reminder {
        padding-bottom: 45px;
    }
@@ -137,16 +134,30 @@ header, main, footer {
 }
 
 @media (max-width: 979px) and (min-width: 768px) {
+    .container {
+        margin: 0 24px;
+    }
     .header {
-        height: 1255px;
-        background-image: url("../assets/img/pageIcons/topBackground.png");
+        margin-bottom: 0;
+        height: 1253px;
+        background-image: url("../assets/img/pageIcons/vectorIllustrationTop.png");
         background-position: bottom center;
-        background-size: cover;
+        background-size:  900px 985px;
         background-repeat: no-repeat;
     }
     header .container {
         margin: 0 64px;
     }
+
+    .special-project__heading {
+        margin-bottom: 24px;
+    }
+
+    .ready-title {
+        width: auto;
+        height: auto;
+    }
+
     header .main-illustration {
         display: none;
         bottom: 0;
@@ -156,6 +167,7 @@ header, main, footer {
     .you-ready {
         justify-content: space-between;
         padding-top: 136px;
+        height: auto;
         width: 100%;
     }
 
@@ -173,9 +185,6 @@ header, main, footer {
         z-index: 10;
         right: 50%;
         transform: translateX(60%);
-    }
-
-    .logo-img {
         width: 77.5px;
         height: 55px;
     }
@@ -190,15 +199,59 @@ header, main, footer {
     .our-partners {
         margin-top: 0;
     }
+
+    .our-partners .image-wrapper {
+        width: 504px;
+    }
+
+    .our-partners h3 {
+        margin-bottom: 30px;
+    }
+
+    .cossa {
+        width: 135px;
+        height: 41px;
+        margin-right: 61px;
+    }
+
+    .ruward {
+        width: 113.5px;
+        height: 67px;
+    }
+
+    .biz360 {
+        width: 101px;
+        height: 67px;
+    }
+
+    .cms-magazine {
+        width: 171px;
+        height: 37px;
+    }
+
+    .arda {
+        width: 109px;
+        height: 37px;
+    }
+
+    .rusbase {
+        width: 151px;
+    }
+
     .info-partners-image-wrapper {
-        margin: 0 132px;
-        padding: 0 30px;
+        margin: 0 auto;
         flex-wrap: wrap;
+        gap: 15px;
         justify-content: space-between;
+        width: 334px;
+    }
+
+    .pain-flex-container {
+        margin-bottom: 90px;
     }
 
     .pain-flex-item:first-child {
-        flex-basis: 30%;
+        flex-basis: 31.5%;
     }
 
     .pain-flex-item:nth-child(2) {
@@ -209,7 +262,11 @@ header, main, footer {
     .pain-flex-item:nth-child(4),
     .pain-flex-item:nth-child(5),
     .pain-flex-item:nth-child(6){
-        flex-basis: 47.5%;
+        flex-basis: 48%;
+    }
+
+    .pain-footer {
+        margin: 0;
     }
 
     .skills-list {
@@ -230,8 +287,20 @@ header, main, footer {
         width: 56px;
     }
 
+    .side-wrapper {
+        width: 48%;
+    }
+
+    .test-reminder {
+        padding-bottom: 155px;
+    }
+
+    .test-reminder .test-link {
+        width: 350px;
+    }
+
     .footer-logo {
-        width: 76px;
+        width: 102px;
     }
 }
 
@@ -250,19 +319,29 @@ header, main, footer {
 
     .header {
         height: 762px;
+        margin-bottom: 32px;
         background-image: url("../assets/img/pageIcons/topBackground.png");
         background-position: bottom center;
-        background-size: 100% 65%;
+        background-size: 400px 500px;
         background-repeat: no-repeat;
     }
 
+    .special-project__heading {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
     .header .test-link {
-        max-width: 80%;
         min-height: 48px;
+        font-size: 16px;
     }
 
     header .main-illustration {
         display: none;
+    }
+
+    .more-info-anchor {
+        font-size: 18px;
     }
 
     .you-ready {
@@ -277,9 +356,12 @@ header, main, footer {
     }
 
     .ready-title {
+        margin: 0 16px 16px 16px;
         font-size: 44px;
         font-weight: 500;
         line-height: 44px;
+        width: auto;
+        height: auto;
     }
 
     .group-wrapper{
@@ -287,8 +369,9 @@ header, main, footer {
     }
 
     .knowledge-level {
+        width: auto;
+        margin-bottom: 32px;
         font-size: 18px;
-        padding-top: 16px;
         line-height: 22px;
     }
 
@@ -298,9 +381,6 @@ header, main, footer {
         z-index: 10;
         right: 50%;
         transform: translateX(60%);
-    }
-
-    .logo-img {
         width: 77.5px;
         height: 55px;
     }
@@ -324,23 +404,58 @@ header, main, footer {
         top: 10px;
     }
 
+    .general-partners {
+        margin-bottom: 63px;
+    }
+
+    .general-partners h3,
+    .info-partners h3 {
+        font-size: 20px;
+    }
+
     .cossa {
-        width: 90px;
-        height: 45px;
+        width: 140px;
+        height: 28px;
     }
 
     .ruward {
-        height: 25px;
-        width: 90px;
+        height: 45px;
+    }
+
+    .biz360 {
+        width: 79px;
+        height: 52px;
+    }
+
+    .cms-magazine {
+        width: 133px;
+        height: 29px;
+    }
+
+    .arda {
+        width: 86px;
+        height: 29px;
+    }
+
+    .rusbase {
+        width: 118px;
     }
 
     .our-partners {
         margin-top: 0;
+        margin-bottom: 96px;
     }
     .info-partners-image-wrapper {
         padding: 0 30px;
-        height: max-content;
         flex-wrap: wrap;
+        gap: 15px;
+        column-gap: 45px;
+    }
+
+    .info-partners-image-wrapper,
+    .general-partners-image-wrapper {
+        width: 288px;
+        padding: 0 14px;
     }
 
     .pain {
@@ -358,13 +473,43 @@ header, main, footer {
 
     .pain-title {
         margin-bottom: 56px;
+        line-height: 38px;
+    }
+
+    .pain-flex-container {
+        gap: 10px;
+        margin-bottom: 72px;
+    }
+
+    .pain-flex-item p{
+        font-size: 20px;
+        line-height: 26px;
+        margin: 24px 32px 56px 32px;
+    }
+
+    .pain-flex-item:nth-child(5) {
+        padding-right: 0;
+    }
+
+    .pain-flex-item {
+        min-height: auto;
+        padding: 0;
     }
 
     .pain-footer {
-        margin: 72px 16px 0 16px;
+        margin: 0;
         font-weight: 500;
         font-size: 20px;
         line-height: 26px;
+    }
+
+    .test-description {
+        font-family: 'FuturaPTWebBook';
+        width: auto;
+        padding: 0 2px 0 2px;
+        margin: 0 auto 56px auto;
+        font-size: 18px;
+        line-height: 22px;
     }
 
     .test-benefits {
@@ -373,6 +518,13 @@ header, main, footer {
 
     .test-benefits__title {
         text-align: center;
+        line-height: 38px;
+        margin-bottom: 16px;
+    }
+
+    .after-test {
+        font-size: 18px;
+        margin-bottom: 54px;
     }
 
     .test-reminder {
@@ -403,24 +555,44 @@ header, main, footer {
 
     .skill-paragraph {
         font-size: 18px;
+        line-height: 22px;
+    }
+
+    .skills-list {
+        gap: 12px;
+    }
+
+    .skills-list__item {
+        height: auto;
+        flex-basis: 100%;
+        max-height: 297px;
     }
 
     .experts {
-        padding: 96px 0 96px 0;
+        padding: 90px 0 96px 0;
+    }
+
+    .experts h2 {
+        margin-bottom: 8px;
     }
 
     .experts-list {
         display: flex;
         justify-content: flex-start;
-        gap: 54px;
+        gap: 0px;
         flex-wrap: nowrap;
-        margin-bottom: 72px;
+        margin-bottom: 30px;
         overflow: scroll;
+    }
+
+    .expert-img-wrapper {
+        width: 140px;
+        height: 140px;
     }
 
     .expert-img-wrapper:first-child,
     .expert-img-wrapper:last-child {
-        margin-left: 40px;
+        margin-left: 18px;
     }
 
     .skills-list {
@@ -428,15 +600,15 @@ header, main, footer {
         justify-content: center;
     }
 
-    .skills-list__item {
-        flex-basis: 100%;
-        height: 304px;
-    }
-
     .main-expert {
-        padding: 40px 40px 100px 40px ;
+        padding: 40px 16px 40px 16px ;
         flex-direction: column;
         align-items: center;
+    }
+
+    .main-expert-paragraph {
+        font-size: 18px;
+        line-height: 22px;
     }
 
     .dotted-arrow-img {
