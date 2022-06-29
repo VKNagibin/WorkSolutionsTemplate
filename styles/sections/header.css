@@ -86,10 +86,6 @@ header {
     color: #637899;
 }
 
-.animation-hider {
-    display: none;
-}
-
 .main-illustration{
     position: absolute;
     top: 80px;
@@ -99,7 +95,7 @@ header {
     animation: .6s ease-out illustration forwards;
 }
 
-.empty {
+.animation-backing {
     z-index: 10;
     position: absolute;
     bottom: 0;
@@ -107,7 +103,7 @@ header {
     background: white;
     width: 676px;
     height: 745px;
-    animation: .6s ease-out empty forwards;
+    animation: .6s ease-out animation-backing forwards;
 }
 
 .header-logo {
