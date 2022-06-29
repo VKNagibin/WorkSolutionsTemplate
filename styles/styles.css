@@ -88,14 +88,20 @@ header, main, footer {
     .container {
         margin: 0 32px;
     }
+
+    .experts-list {
+        row-gap: 56px;
+        column-gap: 24px;
+    }
+
     .expert {
-        flex-basis: 20%;
-        width: 211px;
+        flex-basis: 211px;
+        padding: 0 8px;
     }
 
     .expert-img-wrapper {
-       width: 140px;
-       height: 140px;
+       width: 131px;
+       height: 131px;
        border-radius: 42px;
    }
 
@@ -106,19 +112,27 @@ header, main, footer {
    .test-description {
         display: block;
    }
+
+   .test-reminder {
+       padding-bottom: 45px;
+   }
+
+    .footer-main-illustration {
+        width: 50%;
+        bottom: 60px;
+        right: -5px;
+    }
+
 }
 
 @media (max-width: 1090px) and (min-width: 769px){
-    .footer-logo {
-        right: 24px;
-    }
 
     .main-expert {
         padding: 40px 122px;
     }
 
     .pain-footer {
-        margin: 96px 74px 0 74px;
+        margin: 0 74px 0 74px;
     }
 }
 

@@ -126,6 +126,11 @@
     font-family: 'FuturaPTWebBook';
 }
 
+.main-expert-paragraph:first-child,
+.main-expert-paragraph:nth-child(2){
+    margin-bottom: 23px;
+}
+
 .blue-text {
     color: #56B8FF;
     font-size: 18px;
