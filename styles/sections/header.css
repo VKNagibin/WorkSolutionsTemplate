@@ -26,8 +26,7 @@ header {
 }
 
 .ready-title {
-    display: flex;
-    align-items: center;
+    margin: 0 auto;
     width: 300px;
     margin-bottom: 24px;
     height: 192px;

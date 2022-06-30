@@ -100,7 +100,7 @@ header, main, footer {
         padding: 0 8px;
     }
 
-    .expert-img-wrapper {
+    .expert-img {
        width: 131px;
        height: 131px;
        border-radius: 42px;
@@ -131,6 +131,13 @@ header, main, footer {
     .pain-footer {
         margin: 0 74px 0 74px;
     }
+}
+
+@media (max-width: 979px) {
+    .ready-title span {
+        display: block;
+    }
+
 }
 
 @media (max-width: 979px) and (min-width: 768px) {
@@ -198,6 +205,10 @@ header, main, footer {
 
     .our-partners {
         margin-top: 0;
+    }
+
+    .general-partners {
+        margin-bottom: 60px;
     }
 
     .our-partners .image-wrapper {
@@ -586,13 +597,13 @@ header, main, footer {
         overflow: scroll;
     }
 
-    .expert-img-wrapper {
+    .expert-img {
         width: 140px;
         height: 140px;
     }
 
-    .expert-img-wrapper:first-child,
-    .expert-img-wrapper:last-child {
+    .expert-img:first-child,
+    .expert-img:last-child {
         margin-left: 18px;
     }
 
@@ -608,7 +619,7 @@ header, main, footer {
         gap: 24px;
     }
 
-    .general-img-wrapper {
+    .general-img {
         border-radius: 38px;
         width: 140px;
         height: 140px;

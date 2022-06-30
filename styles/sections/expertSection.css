@@ -27,27 +27,17 @@
     margin-bottom: 96px;
 }
 
-.expert-img-wrapper, .general-img-wrapper {
-    background: #FFFFFF;
+.expert-img, .general-img {
+    display: block;
+    width: 196px;
+    height: 196px;
     border: 1px solid #DBE3F0;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.06);
     border-radius: 56px;
-    overflow: hidden;
-    width: 196px;
-    height: 196px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 24px;
+    object-fit: cover;
 }
 
-.general-img-wrapper {
-    width: 152px;
-    height: 152px;
-    background-image: url("../../assets/img/experts/mMul.png");
-    background-position: center;
-    background-size: cover;
-}
 .expert {
     display: flex;
     flex-direction: column;
@@ -142,82 +132,55 @@
     right: 32px;
 }
 
+.general-img {
+    width: 152px;
+    height: 152px;
+}
+
 .glebKudriavtsev {
-    background-image: url("../../assets/img/experts/man.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+
 }
 
 .tatianaGrokhotovskaya {
-    background-image: url("../../assets/img/experts/woman.png");
-    background-position: 50% 25%;
-    background-size: 150%;
-    background-repeat: no-repeat;
+
 }
 
 .marinaArefieva {
-    background-image: url("../../assets/img/experts/woman.png");
-    background-position: 50% 25%;
-    background-size: 150%;
-    background-repeat: no-repeat;
+
 }
 
-.ivanJigan {
-    background-image: url("../../assets/img/experts/iJugan.png");
-    background-position: 50% 25%;
-    background-size: 132%;
-    background-repeat: no-repeat;
+.ivanJugan {
+
 }
 
 .evgenyShvaikovsky {
-    background-image: url("../../assets/img/experts/man.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+
 }
 
 .vyacheslavKuznetsov {
-    background-image: url("../../assets/img/experts/man.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+
 }
 
 .vladislavPrischepov {
-    background-image: url("../../assets/img/experts/vPrischepov.png");
-    background-repeat: no-repeat;
-    background-size: 132%;
-    background-position: 50% 25%;
+
 }
 
 .andreyHasnutdinov {
-    background-image: url("../../assets/img/experts/aHosnutdinov.png");
-    background-position: 50% 25%;
-    background-size: 132%;
-    background-repeat: no-repeat;
+
 }
 
 .aleksandrSheshotov {
-    background-image: url("../../assets/img/experts/aSheshotov.png");
-    background-position: 50% 25%;
-    background-size: 132%;
-    background-repeat: no-repeat;
+
 }
 
 .aleksandrKorjanov {
-    background-image: url("../../assets/img/experts/aKorjanov.png");
-    background-position: 50% 25%;
-    background-size: 132%;
-    background-repeat: no-repeat;
+
 }
 
 .artemSalutin {
-    background-image: url("../../assets/img/experts/aSalutin.png");
-    background-position: 50% 25%;
-    background-size: 132%;
-    background-repeat: no-repeat;
 }
+
+
 
 
 
