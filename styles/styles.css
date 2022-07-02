@@ -583,11 +583,21 @@ header, main, footer {
     }
 
     .experts {
-        padding: 90px 0 96px 0;
+        padding: 90px 0 96px 0px;
+        background-color: transparent;
+    }
+
+    .experts .container {
+        margin: 0;
     }
 
     .experts h2 {
-        margin-bottom: 8px;
+        margin: 0 16px 8px 16px;
+    }
+
+    .test-description {
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
     .experts-list {
