@@ -1,0 +1,54 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'FuturaPTWebBook';
+    width: 100%;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    font-family: "FuturaPTWebHeavy";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0025em;
+    text-transform: uppercase;
+    color: #27303F;
+}
+
+small {
+    display: block;
+    font-family: 'FuturaPTWebMedium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.0025em;
+    color: #637899;
+}
+
+header, main, footer {
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1176px;
+    position: relative;
+}
