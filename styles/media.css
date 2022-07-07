@@ -616,9 +616,12 @@
         margin-bottom: 44px;
     }
 
+    footer {
+        height: auto;
+    }
 
-    .footer .container {
-        padding-bottom: 140px;
+    footer .container {
+        padding-bottom: 20px;
     }
     .footer-logo {
         right: 0;
